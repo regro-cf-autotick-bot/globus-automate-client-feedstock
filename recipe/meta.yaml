@@ -1,5 +1,5 @@
 {% set name = "globus-automate-client" %}
-{% set version = "0.18.0" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a07c3c676dbb5480a510e51f9ee10dc641ba4464d058abc8aa9df8dfed6d3911
+  sha256: f10591429ccbdbf6e2f066c2bdae7bf52d4c816e2b67612cef79c4a141d67c88
 
 build:
   entry_points:
